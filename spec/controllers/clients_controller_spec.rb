@@ -7,7 +7,7 @@ RSpec.describe ClientsController, type: :controller do
 
   describe "POST #note_create" do
 
-    xit "creates a new note for the client" do
+    it "creates a new note for the client" do
       login_user
       client = create(:client)
       params = {
